@@ -90,7 +90,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
     > <img src="https://i.imgur.com/4ZofZ2f.png?2"/>
 
 #### Elasticsearch
-- 아직까지는 없음 특별한 기능 없음
+- 아직까지는 특별한 기능 없음
 
 
 ### 제한 사항
