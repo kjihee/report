@@ -97,11 +97,11 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 - Docker 기반이기 때문에 플러그인 설치가 Container를 만들 때만 가능
 - 지표 및 Key list 받아 오는 기능 없음
 - Alert에 대한 메일 및 API Notification 에러
-  * SMPT 관련 이슈
+  * SMTP 관련 이슈
     + Docker `-v` 옵션: 로컬에서 grafana.ini 파일 수정하는 방법 시도했으나 볼륨 설정 옵션을 넣으면 에러
-    + Docker `-e` 옵션: SMPT 값 변경 후 Grafana에서는 메일 발신 완료 뜸 → 알림 메일 수신 안됨
+    + Docker `-e` 옵션: SMTP 값 변경 후 Grafana에서는 메일 발신 완료 뜸 → 알림 메일 수신 안됨
   * Grafana Notification Service
-    + Email: Send Test Failed → SMPT 이슈로 추정
+    + Email: Send Test Failed → SMTP 이슈로 추정
     + Slack 연동: Grafana에서 Slack API App Token 입력해도 Send Test Failed
 
 
