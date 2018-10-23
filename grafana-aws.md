@@ -25,7 +25,7 @@
 - Graph panel에서 여러 Data Source, 여러 지표 혼합 가능
 
   > **e.g.1.**  
-  > 하나의 LoadBalancer에 대한 모든 지표(HTTPcode_Target_2XX, 3XX, 4XX, 5XX 등)를 하나의 graph에 표시 가능
+  > 하나의 LoadBalance에 대한 모든 지표(HTTPcode_Target_2XX, 3XX, 4XX, 5XX 등)를 하나의 graph에 표시 가능
   > <img src="https://i.imgur.com/y23Hs0g.png"/>
 
   > **e.g.2.**  
